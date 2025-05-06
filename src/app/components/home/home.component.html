@@ -1,0 +1,16 @@
+<div class="housesList">
+  @for(house of houses; let i =$index; track i){
+  <div class="card">
+    <img [src]="house.image" />
+    <div class="card-content">
+      <h2>{{ house.name }}</h2>
+      <p>
+        <span class="material-symbols-outlined"> location_on </span>
+        {{ house.city }}, {{ house.state }}
+      </p>
+      <button (click)="viewHouse(house.id)">Learn More ></button>
+    </div>
+  </div>
+  }
+</div>
+

@@ -1,0 +1,104 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "name": "Sunny Apartments",
+      "city": "Los Angeles",
+      "state": "CA",
+      "units": 20,
+      "wifi": true,
+      "laundry": true,
+      "image": "assets/1.webp"
+    },
+    {
+      "id": 2,
+      "name": "Green View Residences",
+      "city": "San Francisco",
+      "state": "CA",
+      "units": 15,
+      "wifi": true,
+      "laundry": false,
+      "image": "assets/2.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Lakefront Villas",
+      "city": "Austin",
+      "state": "TX",
+      "units": 10,
+      "wifi": false,
+      "laundry": true,
+      "image": "assets/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Skyline Towers",
+      "city": "New York",
+      "state": "NY",
+      "units": 50,
+      "wifi": true,
+      "laundry": true,
+      "image": "assets/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mountain Retreat",
+      "city": "Denver",
+      "state": "CO",
+      "units": 8,
+      "wifi": false,
+      "laundry": true,
+      "image": "assets/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ocean Breeze Apartments",
+      "city": "Miami",
+      "state": "FL",
+      "units": 12,
+      "wifi": true,
+      "laundry": true,
+      "image": "assets/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "City Lights Residence",
+      "city": "Chicago",
+      "state": "IL",
+      "units": 25,
+      "wifi": true,
+      "laundry": false,
+      "image": "assets/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sunny Side Flats",
+      "city": "Phoenix",
+      "state": "AZ",
+      "units": 18,
+      "wifi": true,
+      "laundry": true,
+      "image": "assets/8.png"
+    },
+    {
+      "id": 9,
+      "name": "Forest View Cottages",
+      "city": "Portland",
+      "state": "OR",
+      "units": 6,
+      "wifi": false,
+      "laundry": false,
+      "image": "assets/9.png"
+    },
+    {
+      "id": 10,
+      "name": "Hilltop Residences",
+      "city": "Seattle",
+      "state": "WA",
+      "units": 30,
+      "wifi": true,
+      "laundry": false,
+      "image": "assets/10.png"
+    }
+  ]
+}

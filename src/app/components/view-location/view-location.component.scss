@@ -1,0 +1,32 @@
+.details-conainer {
+  display: flex;
+  background-color: #afdde5;
+  border: 5px solid #003135;
+  border-radius: 30px;
+  margin: 30px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+img {
+  width: 40%;
+  margin-right: 50px;
+  border-start-start-radius: 25px;
+  border-end-start-radius: 25px;
+}
+
+.data {
+  font-size: 18px;
+}
+
+button {
+  padding: 10px;
+  border: #964734 3px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 270px;
+  margin-top: 60px;
+  background-color: #afdde5;
+  font-weight: bold;
+}

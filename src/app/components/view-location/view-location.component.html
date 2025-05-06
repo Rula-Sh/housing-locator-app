@@ -1,0 +1,21 @@
+<div class="details-conainer">
+  <img [src]="house.image" />
+
+  <div class="data">
+    <h1>{{ house.name }}</h1>
+
+    <p><strong> Location: </strong> {{ house.city }} - {{ house.state }}</p>
+    <p><strong> Number of Units: </strong> {{ house.units }}</p>
+    <p>
+      <strong> Wifi: </strong> {{ house.wifi ? "Available" : "not Available" }}
+    </p>
+    <p>
+      <strong> Laundry: </strong>
+      {{ house.laundry ? "Provided" : "not Provided" }}
+    </p>
+  </div>
+</div>
+
+<button [routerLink]="['/']" routerLinkActive="router-link-active">
+  ← Go back
+</button>

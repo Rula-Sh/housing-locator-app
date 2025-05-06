@@ -1,0 +1,48 @@
+.housesList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.card {
+  width: 220px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #c9ecf2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px;
+}
+
+.card-content {
+  margin: 15px;
+  color: #0fa4af;
+}
+
+img {
+  width: 220px;
+  height: 120px;
+  border-start-start-radius: 20px;
+  border-start-end-radius: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  color: #000;
+  margin-top: 0;
+}
+
+button {
+  text-decoration: none;
+  color: #0fa4af;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: transparent;
+  font-size: medium;
+  cursor: pointer;
+}
